@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+ --clr-mainTheme: #ba5a3a;
+}
+
+body {
+    font-family: 'Rock Salt', cursive;
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ff9f;
+    flex-wrap: wrap;
+}
+.row-col-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20rem;
+    height: auto;
+    background-color: #e1ff01;
+    /* border: 1px solid black; */
+    border-radius: .3rem;
+}
+.boxOne {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.check-container {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 6rem;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top-left-radius: 0.3rem;
+}
+.para-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 6rem;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-top-right-radius: 0.3rem;
+}
+.remove-radius {
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 0rem;
+}
+.add-radius {
+    border-bottom-left-radius:0.3rem ;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom: 1px solid black;
+}
+.input {
+    height: auto;
+}
+h1 {
+    color: #0029ba;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
