@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>CheckList Note using JS</title>
+</head>
+<body>
+  <h1>This is your Checklist</h1>
+  <div class="row-col-section">
+       <div class="boxOne">
+        <div class="check-container">
+            <input type="checkbox" data-no="1" class="checkboxInput">
+        </div>
+       <div class="para-container" style="padding-left: 1.5rem;" data-container-id="1">
+        <p id="1">This is a JavaScript Checklist</p>
+       </div>
+      
+       </div>
+
+       <div class="boxOne">
+        <div class="check-container remove-radius">
+            <input type="checkbox" data-no="2" class="checkboxInput">
+        </div>
+       <div class="para-container remove-radius" style="padding-left: 1.5rem;" data-container-id="2">
+        <p id="2">Check one item</p>
+       </div>
+      
+       </div>
+
+       <div class="boxOne">
+        <div class="check-container remove-radius">
+            <input type="checkbox" data-no="3" class="checkboxInput">
+        </div>
+       <div class="para-container remove-radius" style="padding-left: 1.5rem;" data-container-id="3">
+        <p id="3">Hold down your Shift key</p>
+       </div>
+      
+       </div>
+
+
+       <div class="boxOne">
+        <div class="check-container remove-radius">
+            <input type="checkbox" data-no="4" class="checkboxInput">
+        </div>
+       <div class="para-container remove-radius" style="padding-left: 1.5rem;" data-container-id="4">
+        <p id="4">Check a lower item</p>
+       </div>
+      
+       </div>
+
+
+
+       <div class="boxOne">
+        <div class="check-container remove-radius add-radius" style="border-bottom-right-radius: 0rem;">
+            <input type="checkbox" data-no="5" class="checkboxInput">
+        </div>
+       <div class="para-container remove-radius add-radius" style="border-bottom-left-radius: 0rem; padding: 1.5rem;" data-container-id="5">
+        <p id="5" style="width: 15rem; line-height: 2;">Everything in between will also be set to checked</p>
+       </div>
+      
+       </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
